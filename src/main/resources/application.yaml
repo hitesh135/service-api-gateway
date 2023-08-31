@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /gateway
+spring:
+  application:
+    name: service-api-gateway
+  config:
+    import: "optional:configserver:http://localhost:8088/config/"
+#  webflux:
+#    base-path: /gateway
+
+
+
+
